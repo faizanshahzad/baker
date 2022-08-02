@@ -1,0 +1,114 @@
+*{padding: 0;
+	margin: 0;
+}
+#silder{
+	background-image: url("../img1/one.jpg");
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	background-color: rgba(0,0,0,0.4);
+}
+.hom ,span{
+	color: red;
+}
+ nav{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 30px;
+}
+nav ul li {
+	display:inline-block; 
+	margin: 20px;
+}
+/*next div*/
+.two{
+	align-items: center;
+	color: #fff;
+	padding-top: 100px;
+	text-align: center;
+}
+.two1{
+	font-size: 25px;
+}
+.two2{
+	font-size: 40px;
+}
+.two3{
+	font-size: 15px;	
+}
+/*button start*/
+.butt{
+	background-color:yellow;
+	font-size: 20px;
+	border-radius:20px;
+	border: none;
+	padding: 10px;
+	color: black;
+	margin-right: 20px;
+}
+.butt:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+}
+.butto{
+	background-color:transparent;
+	font-size: 20px;
+	border-radius: 20px;
+	border: 1px solid yellow;
+	padding: 10px;
+	color: yellow;
+	cursor: pointer;
+}
+.butto:hover{
+	background-color: yellow;
+	color: #fff;
+}
+/*div three*/
+#silder2{
+	height: 550px;
+	width: 100%;
+	background-color: black;
+}
+.three{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.div1{
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    padding-top: 80px;
+}
+.div1 img{
+	height: 250px;
+	width: 250px;
+}
+.hit1{
+	color: #fff;
+	font-size: 15px;
+}
+.hit2{
+	color: #fff;
+	font-size: 20px;
+}
+ /*footer start*/
+#silder3{
+	height: 400px;
+	width: 100%;
+}
+.fut1{
+	font-size: 30px;
+	padding-top: 100px;
+	color: red;
+	text-align: center;
+}
+.fut2{
+	text-align: center;
+	padding-top: 80px;
+}
